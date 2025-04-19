@@ -29,7 +29,7 @@ FROM employees;
 
 c. Deleting Data: 
 INSERT OVERWRITE TABLE employees 
-SELECT * FROM employees WHERE emp_id != 1001;
+SELECT * FROM employees WHERE emp_id<>1001;
  
 4. Basic Data Retrieval Queries 
 a. Select all records: 
